@@ -1,4 +1,4 @@
-package Domaine;
+package service;
 
 public class AuthentificationManager 
 {

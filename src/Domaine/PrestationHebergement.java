@@ -1,6 +1,6 @@
 package Domaine;
 
-public class PrestationHebergement 
+public abstract class PrestationHebergement 
 {
 
 	private double prix;

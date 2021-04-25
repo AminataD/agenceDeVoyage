@@ -1,6 +1,8 @@
-package Domaine;
+package service;
 
 import java.util.ArrayList;
+
+import Domaine.Voyage;
 
 public class AgenceVoyagesServices 
 {
@@ -11,7 +13,6 @@ public class AgenceVoyagesServices
 	
     public AgenceVoyagesServices() {}
 
-
 	public AgenceVoyagesServices(String nomAgence) 
 	{
 		this.nomAgence = nomAgence;
@@ -21,6 +22,10 @@ public class AgenceVoyagesServices
 	public ArrayList<Voyage> getOffres()
 	{
 		return this.listVoyages;
+	}
+	public boolean reserver(Voyage voyage)
+	{
+		return true;
 	}
 
 

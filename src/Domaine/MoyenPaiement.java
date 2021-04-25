@@ -1,6 +1,6 @@
 package Domaine;
 
-public class MoyenPaiement 
+public abstract class MoyenPaiement 
 {
 
     public String banque; 

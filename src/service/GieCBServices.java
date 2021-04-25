@@ -1,6 +1,8 @@
-package Domaine;
+package service;
 
 import java.util.*;
+
+import Domaine.CB;
 
 /**
  * 
